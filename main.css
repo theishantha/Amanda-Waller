@@ -125,9 +125,39 @@ footer p{
 }
 
 /*----------responsive---------*/
-
-
-
+@media only screen and (max-width: 991px){
+    header p{
+        width: 100%;
+    }
+    .work a img{
+        margin: 2%;
+        width: 96%;
+    }
+    .work2 a img{ 
+        margin: 2%;
+        width: 96%;
+    }
+    
+    
+}
+ 
+@media only screen and (max-width: 768px){
+    header{
+        width: 96%;
+        margin: 30px auto 100px auto;
+        text-align: left;
+    }
+    .iAm{
+        visibility: hidden;
+    }
+    footer p{
+        height: 100px;
+        text-align: left;
+        width: 90%;
+        margin: 1%;
+    }
+    
+}
 
 
 
